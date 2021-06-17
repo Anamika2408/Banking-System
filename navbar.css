@@ -1,0 +1,48 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+body{
+  background-image: url('https://cdn.hipwallpaper.com/i/71/44/sLrHqS.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.nav-link,.span_cont{ 
+  padding:8px 16px;
+  float:right;
+  width:auto;
+  border:none;
+  display:block;
+  outline:0
+}
+
+.button{
+  white-space:normal
+}
+
+.nav-black{  
+  background-color:#e3e3e3!important
+}
+
+.nav-bar{
+  width:100%;
+  height: 7%;
+  overflow:hidden;
+  display:inline-block;
+}
+
+.nav-link{
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.span_cont{
+  font-family: cursive;
+  font-weight: 50%;
+   color: #8B0000;;
+  font-size: 22px;
+  float: left;
+}

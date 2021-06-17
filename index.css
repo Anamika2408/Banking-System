@@ -1,0 +1,36 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+.heading{
+  color: #8B0000;
+  font-family: Monaco;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 2px 2px;
+  margin-top: -30px ;
+}
+
+#header-img{
+  border-radius:20px;
+  margin-left: 35%;
+  width: 30%;
+  height: 50%;
+  transition: transform .2s;
+}
+
+#header-img:hover{
+  transform: scaleX(-1);
+  margin-left: 35%;
+  width: 30%;
+  height: 50%;
+  
+}
+
+#footer{
+  font-weight: 1000;
+  color: #C3CBD6;
+  padding:5% 33% 1.5% 38%; 
+}
+
